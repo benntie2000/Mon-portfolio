@@ -11,17 +11,17 @@ const config = {
 // ========================================
 // LOADER & INITIALIZATION
 // ========================================
-window.addEventListener('load', () => {
-    setTimeout(() => {
-        const loader = document.getElementById('loader');
-        if (loader) {
-            loader.classList.add('hidden');
-            setTimeout(() => {
-                loader.style.display = 'none';
-            }, 500);
-        }
-        initAnimations();
-    }, 500);
+//window.addEventListener('load', () => {
+    //setTimeout(() => {
+        //const loader = document.getElementById('loader');
+        //if (loader) {
+            //loader.classList.add('hidden');
+            //setTimeout(() => {
+                //loader.style.display = 'none';
+            //}, 500);
+        //}
+        //initAnimations();
+    //}, 2500);
     
 });
 
