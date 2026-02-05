@@ -22,6 +22,9 @@ window.addEventListener('load', () => {
         }
         initAnimations();
     }, 2500);
+    setTimeout(() => {
+    document.getElementById('loader')?.remove();
+}, 6000);
 });
 
 // ========================================
