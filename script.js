@@ -21,10 +21,8 @@ window.addEventListener('load', () => {
             }, 500);
         }
         initAnimations();
-    }, 2500);
-    setTimeout(() => {
-    document.getElementById('loader')?.remove();
-}, 6000);
+    }, 500);
+    
 });
 
 // ========================================
